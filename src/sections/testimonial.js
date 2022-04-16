@@ -103,7 +103,10 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: "section.testimonial" }}>
       <Container css={{ textAlign: "center" }}>
-        <SectionHeader slogan="Testimonials" title="Meet Client Satisfaction" />
+        <SectionHeader
+          slogan="Testimonials"
+          title="See What Our Users Are Saying"
+        />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel {...carouselParams}>

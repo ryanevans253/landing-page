@@ -12,34 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: "Fast Performance",
-    title: "Fast Performance",
+    altText: "Repotting Schedule",
+    title: "Repotting Schedule",
     text:
-      "Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.",
+      "Stay on top of how and when to repot your plants to keep them healthy and thriving.",
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: "Pro Subscription",
-    title: "Pro Subscription",
+    altText: "Fertilization Information",
+    title: "Fertilization Information",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "Ensure your plants are getting the right kind of nutrition at the right time.",
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: "Partnership deal",
-    title: "Partnership deal",
+    altText: "Propogation Guides",
+    title: "Propogation Guides",
     text:
-      "Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.",
+      "Learn how to turn one plant into many with our simple guides on propgation.",
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: "Customer Support",
-    title: "Customer Support",
+    altText: "Plant Toxicity Alerts",
+    title: "Plant Toxicity Alerts",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "Know which plants may be harmful to your pets or other members of your household.",
   },
 ];
 
@@ -47,7 +47,10 @@ export default function Feature() {
   return (
     <section sx={{ variant: "section.feature" }}>
       <Container>
-        <SectionHeader slogan="my new features" title="more features" />
+        <SectionHeader
+          slogan="More reasons to use Planted"
+          title="Simple Plant Guides"
+        />
 
         <Grid sx={styles.grid}>
           {data.map((item) => (

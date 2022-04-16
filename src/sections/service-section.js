@@ -16,31 +16,32 @@ import ModalVideo from "react-modal-video";
 import { IoIosPlay } from "react-icons/io";
 
 import ServiceThumb from "assets/service-thumb.png";
-import shapePattern from "assets/shape-pattern1.png";
+import shapePattern from "assets/shape-pattern-green.png";
+import plantGirl from "assets/plantgirl.png";
 
 import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
 import { ListItem } from "@mui/material";
 
 const data = {
-  subTitle: "our services",
-  title: "Business Goals Achieved with Design",
+  subTitle: "Never kill a plant again",
+  title: "Remove the guesswork of plant care ",
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: "Smart Features",
-      title: "Smart Features",
+      altText: "Smart Watering",
+      title: "Smart Watering",
       text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+        "Automate everything. Give your plants the exact water they need with our moisture sensors and automated pump system.",
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: "Secure Contents",
-      title: "Secure Contents",
+      altText: "Soil Testing",
+      title: "Soil Testing",
       text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+        "Not all dirt is created equal. We will analyze your soil to ensure you have the right nutrients, PH, and more.",
     },
   ],
 };
@@ -57,8 +58,8 @@ export default function ServiceSection() {
     <section sx={{ variant: "section.services" }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="thumbnail" />
-          <Button
+          <Image src={plantGirl} alt="thumbnail" sx={styles.plantImage} />
+          {/* <Button
             sx={styles.videoBtn}
             onClick={handleClick}
             aria-label="Play Button"
@@ -66,7 +67,7 @@ export default function ServiceSection() {
             <span>
               <IoIosPlay />
             </span>
-          </Button>
+          </Button> */}
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="shape" />
           </Box>
@@ -118,6 +119,9 @@ const styles = {
   coreFeature: {
     py: [0, null, null, 2, null, 7],
     position: "relative",
+  },
+  plantImage: {
+    borderRadius: 10,
   },
   containerBox: {
     display: "flex",

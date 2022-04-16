@@ -12,34 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: "Fast Performance",
-    title: "Fast Performance",
+    altText: "Smart Watering",
+    title: "Smart Watering",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Never forget to water or fertilize your plants with custom reminders and our automated pump system.",
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: "Partnership deal",
-    title: "Partnership deal",
+    altText: "Light Sensors",
+    title: "Light Sensors",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Our app comes with a light sensor so you can be sure your plants are getting just the right amount of light.",
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: "Pro Subscription",
-    title: "Pro Subscription",
+    altText: "Moisture Meters",
+    title: "Moisture Meters",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Our smart meters will check your soil's moisture levels so you know exactly when to water them.",
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: "Customer Support",
-    title: "Customer Support",
+    altText: "Plant Identification",
+    title: "Plant Identification",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Quickly identify your plants and import their recommended care guide to get up and running quickly.",
   },
 ];
 

@@ -10,27 +10,26 @@ import ArrowEven from "assets/arrowEven.svg";
 const data = [
   {
     id: 1,
-    title: "Set disbursement Instructions",
+    title: "Get your kit",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Select the right system to fit your needs, from a simple moisture sensor to a fully automated system.",
   },
   {
     id: 2,
-    title: "Assembly retrieves funds from your account",
+    title: "Sync it up",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Link your pump kit to the app for full control over your plant watering system.",
   },
   {
     id: 3,
-    title: "Assembly initiates disbursement",
-    text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    title: "Connect your system",
+    text: "Hook up the water source, pump, hoses, and base station.",
   },
   {
     id: 4,
-    title: "Customer receives funds payment",
+    title: "Set your schedules",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Customize individual watering schedules based on recommended intervals or moisture levels.",
   },
 ];
 
@@ -39,8 +38,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="This is a sentence"
-          title="And this is a title now!"
+          slogan="Simple Setup"
+          title="Get up and running in minutes"
           isWhite={true}
         />
 

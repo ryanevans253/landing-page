@@ -2,8 +2,8 @@
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
 import BannerImg from "assets/banner-thumb.png";
-import ShapeLeft from "assets/shape-left.png";
-import ShapeRight from "assets/shape-right.png";
+import ShapeLeft from "assets/shape-left-green.png";
+import ShapeRight from "assets/shape-right-yellow.png";
 
 export default function Banner() {
   return (
@@ -11,11 +11,11 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Marigold Enterprises is your premium event staffaroos
+            Plant Parenthood Shouldn't be a Chore.
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Check out our website to find great stuff! If you need a great site
-            reach out today.
+            Set reminders based on individual plant needs or water them
+            automatically with our simple smart home watering kit.
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>
