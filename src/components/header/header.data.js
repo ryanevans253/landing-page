@@ -8,6 +8,10 @@ export default [
     label: "Features",
   },
   {
+    path: "workflow",
+    label: "How it Works",
+  },
+  {
     path: "pricing",
     label: "Pricing",
   },

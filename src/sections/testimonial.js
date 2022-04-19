@@ -54,16 +54,16 @@ const data = [
     review: 4,
   },
 
-  {
-    id: 5,
-    title: "Great features even for free",
-    description:
-      "Great app! I use the free version and it helps keep me on track with watering my plants properly. The subscription fee is a little high for me right now but it seems great as well with lots of additional features!",
-    avatar: Avatar3,
-    name: "Sam McGill",
-    designation: "@sammy",
-    review: 5,
-  },
+  // {
+  //   id: 5,
+  //   title: "Great features even for free",
+  //   description:
+  //     "Great app! I use the free version and it helps keep me on track with watering my plants properly. The subscription fee is a little high for me right now but it seems great as well with lots of additional features!",
+  //   avatar: Avatar3,
+  //   name: "Sam McGill",
+  //   designation: "@sammy",
+  //   review: 5,
+  // },
 ];
 
 const responsive = {
