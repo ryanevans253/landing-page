@@ -9,47 +9,60 @@ import Avatar1 from "assets/testimonial/avatar1.png";
 import Avatar2 from "assets/testimonial/avatar2.png";
 import Avatar3 from "assets/testimonial/avatar3.png";
 import Avatar4 from "assets/testimonial/avatar4.png";
+import Avatar5 from "assets/testimonial/Avatar5.png";
 
 const data = [
   {
     id: 1,
-    title: "Modern look & trending design",
+    title: "I love Planted!",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "I love Planted! It helps to remind me what needs to be taken care of and when and tips and tools to help along the way. Especially when I have over 50 different types of plants on my balcony!",
     avatar: Avatar1,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
+    name: "Rachel Vasquez",
+    designation: "@rachel.v",
     review: 4,
   },
   {
     id: 2,
-    title: "Design Quality & performance",
+    title: "Plants are striving",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar2,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
+      "My plants are striving because of this app. I used to kill plants alot, ever since I got it I've been motivated to do more, and get new plants!",
+    avatar: Avatar5,
+    name: "Taylor Hartford",
+    designation: "@hartford",
     review: 5,
   },
   {
     id: 3,
-    title: "Layout and organized layers",
+    title: "Beginner friendly",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar3,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
+      "I'm a beginner and find this app very useful! Have been doing the care they've recommended for a while now and can definitely see a difference with my plants! Hope you can expand to outdoor garden plans that are not potted",
+    avatar: Avatar2,
+    name: "Jamie Holland",
+    designation: "@jj.holland",
     review: 5,
   },
+
   {
     id: 4,
-    title: "Modern look & trending design",
+    title: "Keeps me organized",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "This has really helped me figure out where the best place for each plant is and not have to worry about over or under watering them! The plant recognition was worth the premium for me, plus it's super affordable for all that it does! Highly recommend!",
     avatar: Avatar4,
-    name: "Denny Hilguston",
-    designation: "@denny.hil",
+    name: "Mark Mitchell",
+    designation: "@m.mitchell",
     review: 4,
+  },
+
+  {
+    id: 5,
+    title: "Great features even for free",
+    description:
+      "Great app! I use the free version and it helps keep me on track with watering my plants properly. The subscription fee is a little high for me right now but it seems great as well with lots of additional features!",
+    avatar: Avatar3,
+    name: "Sam McGill",
+    designation: "@sammy",
+    review: 5,
   },
 ];
 

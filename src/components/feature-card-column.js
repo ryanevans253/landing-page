@@ -28,10 +28,14 @@ const styles = {
     px: [4, null, 0],
   },
   img: {
-    mx: ["auto", null, 0],
-    ml: ["auto", null, "-13px"],
-    mb: -2,
+    // mx: ["auto", null, 0],
+    mx: ["auto", "auto"],
+    ml: ["auto", "auto", -1, -2, 0],
+
+    // ml: ["auto", null, "-13px"],
+    mb: 15,
     width: ["80px", null, null, "90px", null, "auto"],
+    maxHeight: "65px",
   },
   wrapper: {
     width: "100%",

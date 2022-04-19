@@ -8,18 +8,25 @@ import Partnership from "assets/key-feature/partnership.svg";
 import Subscription from "assets/key-feature/subscription.svg";
 import Support from "assets/key-feature/support.svg";
 
+//my icons
+
+import bell from "assets/key-feature/bell.svg";
+import drop from "assets/key-feature/drop.svg";
+import sun from "assets/key-feature/sun.svg";
+import search from "assets/key-feature/search.svg";
+
 const data = [
   {
     id: 1,
-    imgSrc: Performance,
-    altText: "Smart Watering",
-    title: "Smart Watering",
+    imgSrc: bell,
+    altText: "Custom Reminders",
+    title: "Custom Reminders",
     text:
-      "Never forget to water or fertilize your plants with custom reminders and our automated pump system.",
+      "Never forget to water or fertilize your plants with custom reminders and our automated watering system.",
   },
   {
     id: 2,
-    imgSrc: Partnership,
+    imgSrc: sun,
     altText: "Light Sensors",
     title: "Light Sensors",
     text:
@@ -27,7 +34,7 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Subscription,
+    imgSrc: drop,
     altText: "Moisture Meters",
     title: "Moisture Meters",
     text:
@@ -35,7 +42,7 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Support,
+    imgSrc: search,
     altText: "Plant Identification",
     title: "Plant Identification",
     text:
@@ -48,8 +55,8 @@ export default function KeyFeature() {
     <section id="feature" sx={{ variant: "section.keyFeature" }}>
       <Container>
         <SectionHeader
-          slogan="What is the function"
-          title="Meet the new features"
+          slogan="Why get planted?"
+          title="Never kill a plant again"
         />
 
         <Grid sx={styles.grid}>

@@ -4,6 +4,7 @@ import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
 import BannerImg from "assets/banner-thumb.png";
 import ShapeLeft from "assets/shape-left-green.png";
 import ShapeRight from "assets/shape-right-yellow.png";
+import heroImage from "assets/heroImage.png";
 
 export default function Banner() {
   return (
@@ -11,16 +12,16 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Plant Parenthood Shouldn't be a Chore.
+            Plant Parenting Shouldn't be a Chore.
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Set reminders based on individual plant needs or water them
-            automatically with our simple smart home watering kit.
+            Set reminders or water your plants automatically with our simple
+            smart home watering kit.
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button variant="primary">Get Started</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner" />
+          <Image src={heroImage} alt="banner" />
         </Box>
       </Container>
     </section>
@@ -76,6 +77,8 @@ const styles = {
       textAlign: "center",
       display: "inline-flex",
       mb: [0, null, -6, null, null, "-40px", null, -3],
+      boxShadow:
+        " rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;",
       img: {
         position: "relative",
         height: [245, "auto"],

@@ -3,7 +3,7 @@ import { jsx, Container, Box, Image } from "theme-ui";
 import TextFeature from "components/text-feature";
 
 import FeatureThumb from "assets/core-feature.png";
-import shapePattern from "assets/shape-pattern2.png";
+import shapePattern from "assets/right-shape.png";
 
 import plantPhoto from "assets/plants.png";
 
@@ -74,6 +74,7 @@ const styles = {
     },
   },
   shapeBox: {
+    maxWidth: "400px",
     position: "absolute",
     bottom: -65,
     right: -165,

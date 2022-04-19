@@ -6,12 +6,13 @@ import Logo from "components/logo";
 import LogoDark from "assets/logo.svg";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
+import plantlogo from "assets/plantlogo.svg";
 
 export default function Header({ className }) {
   return (
     <header id="header" sx={styles.header} className={className}>
       <Container sx={styles.container}>
-        <Logo src={LogoDark} />
+        <Logo src={plantlogo} />
         <Flex as="nav" sx={styles.nav}>
           {menuItems.map((item, i) => (
             <Link

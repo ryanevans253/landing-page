@@ -16,20 +16,22 @@ import ModalVideo from "react-modal-video";
 import { IoIosPlay } from "react-icons/io";
 
 import ServiceThumb from "assets/service-thumb.png";
-import shapePattern from "assets/shape-pattern-green.png";
+import shapePattern from "assets/left-shape.png";
 import plantGirl from "assets/plantgirl.png";
 
 import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
-import { ListItem } from "@mui/material";
+
+import head from "assets/services/head.svg";
+import info from "assets/services/info.svg";
 
 const data = {
-  subTitle: "Never kill a plant again",
+  subTitle: "Plant smarter.",
   title: "Remove the guesswork of plant care ",
   features: [
     {
       id: 1,
-      imgSrc: Smart,
+      imgSrc: head,
       altText: "Smart Watering",
       title: "Smart Watering",
       text:
@@ -37,7 +39,7 @@ const data = {
     },
     {
       id: 2,
-      imgSrc: Secure,
+      imgSrc: info,
       altText: "Soil Testing",
       title: "Soil Testing",
       text:
@@ -143,6 +145,7 @@ const styles = {
     },
   },
   shapeBox: {
+    maxWidth: "400px",
     position: "absolute",
     bottom: -68,
     left: -160,
